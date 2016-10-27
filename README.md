@@ -13,4 +13,4 @@ Before you can use this script to login your VPN automatically, you should regis
 - https://github.com/cyrozap/python-vipaccess
 - https://gist.github.com/p120ph37/8213727
 
-After you register your credential ID and get the ID's secret key, you can fill in the user_profile_config_template.json and use this configure file to login your VPN. Enjoy it.
+After you register your credential ID and get the ID's secret key, you can fill in the user_profile_config_template.json (I just use plaintext to store it in my case, you can encrypt it or use other method to store it, as it contains many sensitive account information) and use this configure file to login your VPN. Enjoy it.
