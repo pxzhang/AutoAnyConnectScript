@@ -1,0 +1,8 @@
+{
+"VPNCLI_PATH": "C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpncli.exe",
+"VPN_URL": "YOUR VPN URL",
+"USER_NAME": "YOUR USERNAME",
+"PASS_WD": "YOUR PASS WORD",
+"TOKEN_KEY": "YOUR SYMANTEC CREDENTIAL ID SECRET",
+"TOKEN_ID": "YOUR SYMANTEC CREDENTIAL ID"
+}
