@@ -3,6 +3,8 @@ A script to automate connect to Cisco AnyConnect with second authorized security
 # Usage
 $python AutoAnyConnectScript.py your_config_file.json
 
+It will toggle between connect/disconnect VPN with this command.
+
 # Dependences 
 - python 2.7.3
 - oath

@@ -51,7 +51,9 @@ def connect(conn_config_dict):
        proc = Popen([VPNCLI_PATH, '-s'], stdin=PIPE, stdout=None)
        proc.communicate(os.linesep.join(['connect %s'%(VPN_URL), USER_NAME, PASS_WD, oath.totp(TOKEN_KEY), 'y']))
    elif conn_status == 'Connected':
-       print st_output
+       #print st_output
+       proc = Popen([VPNCLI_PATH, '-s'], stdin=PIPE, stdout=None)
+       proc.communicate(os.linesep.join(['disconnect']))
 
 if __name__ == '__main__':
    if len(sys.argv) < 1:
