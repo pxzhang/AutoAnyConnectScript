@@ -6,7 +6,10 @@ $python TokenGeneratorWithKey.py
 
 After generated the token with key, copy the TOKEN_ID and TOKEN_KEY to your configure file (make sure put it in a security place). Then register the TOKEN_ID with your VPN provider if you are required. 
 
-$python AutoAnyConnectScript.py your_config_file.json
+If you are required to provide the security code in registering the TOKEN_ID, you can use oathtool in linux by:
+$ oathtool --totp $key_plain
+
+$ python AutoAnyConnectScript.py your_config_file.json
 
 It will toggle between connect/disconnect VPN with this command.
 
